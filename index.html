@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <main>
+      <article class="slider">
+        <div class="slider__bg">
+          <img src="./images/pattern-bg.svg" alt="" />
+        </div>
+
+        <div class="slider__img">
+          <div class="photo-wrapper">
+            <img
+              src="./images/image-tanya.jpg"
+              alt=""
+              class="photo"
+              id="photo"
+            />
+          </div>
+          <div class="btn-wrapper">
+            <button class="prev" id="prev">
+              <img src="./images/icon-prev.svg" alt="" />
+            </button>
+            <button class="next" id="next">
+              <img src="./images/icon-next.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial">
+        <div class="testimonial__text">
+          <img src="./images/pattern-quotes.svg" alt="" class="quotes" />
+          <p class="text" id="text"></p>
+        </div>
+        <div class="testimonial__info">
+          <span class="name" id="name"></span>
+          <span class="role" id="role"></span>
+        </div>
+      </article>
+
+      <footer>
+        <img src="./images/pattern-curve.svg" alt="" />
+      </footer>
+    </main>
+
+    <script src="./public/js/app.js"></script>
+  </body>
+</html>
