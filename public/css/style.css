@@ -52,7 +52,7 @@ span {
   font-size: 1.6rem;
 }
 
-button {
+.btn {
   padding: 1rem;
   padding-bottom: 0.75rem;
   background-color: transparent;
@@ -115,10 +115,10 @@ button {
   box-shadow: 0 2.5rem 7rem -0.025rem rgba(0, 0, 0, 0.25);
 }
 
-.btn-wrapper button.prev {
+.btn-wrapper .btn.prev {
   margin: 0.5rem 0.75rem;
 }
-.btn-wrapper button.next {
+.btn-wrapper .btn.next {
   margin: 0.5rem 0.75rem;
 }
 
@@ -161,6 +161,7 @@ footer img {
   position: absolute;
   width: 100%;
   max-width: 60rem;
+  z-index: -1;
 }
 
 @media screen and (min-width: 860px) {
@@ -169,22 +170,26 @@ footer img {
     min-height: 100vh;
   }
 
+  p {
+    font-size: 2.6rem;
+  }
+
+  span {
+    font-size: 2rem;
+  }
+
   footer img {
     bottom: 0;
   }
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1280px) {
   body {
     font-size: 4rem;
   }
 
   p {
     font-size: 3.2rem;
-  }
-
-  span {
-    font-size: 2rem;
   }
 
   main {
@@ -217,10 +222,10 @@ footer img {
     bottom: -3rem;
   }
 
-  .btn-wrapper button.prev {
+  .btn-wrapper .btn.prev {
     margin: 1rem 1.25rem;
   }
-  .btn-wrapper button.next {
+  .btn-wrapper .btn.next {
     margin: 1rem 1.25rem;
   }
 
